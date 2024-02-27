@@ -8,4 +8,4 @@ It makes it difficult to gather feedbacks when needed. Which is why you are read
 
 ## Projects
 * [Vox](https://github.com/GitHuberlandYann/VOX.git) minecraft clone in c++ using openGL.
-* [multiChesser](git@github.com:GitHuberlandYann/multiChesser.git) multiplayer game of chess on the local network. ./chess fu-r3-p8
+* [multiChesser](https://github.com/GitHuberlandYann/multiChesser.git) multiplayer game of chess on the local network. ./chess fu-r3-p8
