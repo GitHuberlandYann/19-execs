@@ -19,3 +19,8 @@ $ cd multiChesser
 # $ ./server         - if you want to host the server
 $ ./chess fu-r3-p8
 ```
+* [Cores](https://github.com/GitHuberlandYann/Cores.git) particles system. You control cores, each emitting particles and gravity.
+```
+$ cd Cores
+$ ./cores
+```
