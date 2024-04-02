@@ -24,3 +24,8 @@ $ ./chess fu-r3-p8
 $ cd Cores
 $ ./cores
 ```
+* [DelaunayBoids](https://github.com/GitHuberlandYann/Delaunay.git) delaunay triangulation meets boids.
+```
+$ cd DelaunayBoids
+$ ./delaunay
+```
