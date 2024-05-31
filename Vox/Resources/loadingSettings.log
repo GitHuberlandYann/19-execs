@@ -1,0 +1,13 @@
+Opening file Resources/settings.json
+fov set to 70.2503
+render dist set to 10
+clouds set to Clouds - OFF
+gui_size set to 3
+skybox set to false
+brightness set to 0.057494
+particles set to true
+face_culling set to 1
+smooth_lighting set to 1
+resource packs
+push resource pack default.json
+Opening file Resources/Resource_Packs/default.json

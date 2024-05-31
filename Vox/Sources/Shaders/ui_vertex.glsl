@@ -1,23 +1,34 @@
 #version 150 core
 
-in int atlas;
-in ivec4 pos;
-in ivec4 textcoord;
+/*
+ * 0xFF x texture
+ * 0xFF00 y texture
+ * 0x10000 x offset
+ * 0x20000 y offset
+ * rest atlas
+ */
+in int specifications;
+in ivec2 position;
 
-uniform int window_width;
-uniform int window_height;
+uniform int win_width;
+uniform int win_height;
 
-out Prim
-{
-	out int Atlas;
-    out vec2 Size;
-	out vec4 textCoord;
-};
+out vec2 TexCoords;
+flat out int Atlas;
+
+const float one256th = 0.00390625f;
+const float half_pxl = 0.0001220703125f;
 
 void main()
 {
-	gl_Position = vec4((2.0 * pos.x) / window_width - 1.0, -((2.0 * pos.y) / window_height - 1.0), 0.0, 1.0);
-	Atlas = atlas;
-	Size = vec2((2.0 * pos.z) / window_width, -(2.0 * pos.w) / window_height);
-	textCoord = textcoord;
+	gl_Position = vec4((2.0f * position.x) / win_width - 1.0f, -((2.0f * position.y) / win_height - 1.0f), 0.0f, 1.0f);
+
+	TexCoords = vec2((specifications & 0xFF)       * one256th + (((specifications & 0x10000) == 0x10000) ? one256th - half_pxl : half_pxl),
+					((specifications >> 8) & 0xFF) * one256th + (((specifications & 0x20000) == 0x20000) ? one256th - half_pxl : half_pxl));
+					
+	Atlas = (specifications >> 18);
 }
+
+/////
+
+
