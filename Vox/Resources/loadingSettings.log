@@ -4,10 +4,84 @@ render dist set to 10
 clouds set to Clouds - OFF
 gui_size set to 3
 skybox set to false
-brightness set to 0.057494
+brightness set to 0.055825
 particles set to true
 face_culling set to 1
 smooth_lighting set to 1
 resource packs
 push resource pack default.json
+binding key 0 to action 7
+binding key 1 to action 9
+binding key 2 to action 8
+binding key 32 to action 6
+binding key 47 to action 14
+binding key 49 to action 34
+binding key 50 to action 35
+binding key 51 to action 36
+binding key 52 to action 37
+binding key 53 to action 38
+binding key 54 to action 39
+binding key 55 to action 40
+binding key 56 to action 41
+binding key 57 to action 42
+binding key 65 to action 3
+binding key 67 to action 20
+binding key 68 to action 2
+binding key 69 to action 10
+binding key 70 to action 18
+binding key 71 to action 12
+binding key 73 to action 21
+binding key 79 to action 19
+binding key 81 to action 11
+binding key 83 to action 1
+binding key 84 to action 13
+binding key 87 to action 0
+binding key 91 to action 27
+binding key 93 to action 26
+binding key 256 to action 15
+binding key 257 to action 16
+binding key 259 to action 17
+binding key 262 to action 32
+binding key 263 to action 33
+binding key 264 to action 31
+binding key 265 to action 30
+binding key 290 to action 22
+binding key 291 to action 23
+binding key 292 to action 24
+binding key 294 to action 25
+binding key 333 to action 29
+binding key 334 to action 28
+binding key 340 to action 4
+binding key 341 to action 5
 Opening file Resources/Resource_Packs/default.json
+Resource "BLOCK_ATLAS":  at index 0 set to |Resources/Textures/|
+Resource "ASCII_ATLAS":  at index 1 set to |Resources/Textures/Gui/asciiAtlas.png|
+Resource "UI_ATLAS":  at index 2 set to |Resources/Textures/Gui/uiAtlas.png|
+Resource "TEX_INVENTORY":  at index 3 set to |Resources/Textures/Gui/inventory.png|
+Resource "TEX_CRAFTING_TABLE":  at index 4 set to |Resources/Textures/Gui/crafting_table.png|
+Resource "TEX_FURNACE":  at index 5 set to |Resources/Textures/Gui/furnace.png|
+Resource "TEX_CHEST":  at index 6 set to |Resources/Textures/Gui/chest.png|
+Resource "TEX_BOOK":  at index 7 set to |Resources/Textures/Gui/book.png|
+Resource "TEX_ANVIL":  at index 8 set to |Resources/Textures/Gui/anvil.png|
+Resource "TEX_ZOMBIE":  at index 9 set to |Resources/Textures/Models/zombie.png|
+Resource "TEX_SKELETON":  at index 10 set to |Resources/Textures/Models/skeleton.png|
+Resource "TEX_PLAYER":  at index 11 set to |Resources/Textures/Models/player.png|
+Resource "PARTICLE_ATLAS":  at index 12 set to |Resources/Textures/particleAtlas.png|
+Resource "WATER_STILL":  at index 13 set to |Resources/Textures/waterStill.png|
+Resource "WATER_FLOW":  at index 14 set to |Resources/Textures/waterFlow.png|
+Resource "MAIN_FRAGMENT_SHADER":  at index 15 set to |Sources/Shaders/fragment.glsl|
+Resource "MAIN_VERTEX_SHADER":  at index 16 set to |Sources/Shaders/vertex.glsl|
+Resource "ITEM_FRAGMENT_SHADER":  at index 17 set to |Sources/Shaders/item_fragment.glsl|
+Resource "ITEM_VERTEX_SHADER":  at index 18 set to |Sources/Shaders/item_vertex.glsl|
+Resource "MODEL_FRAGMENT_SHADER":  at index 19 set to |Sources/Shaders/model_fragment.glsl|
+Resource "MODEL_VERTEX_SHADER":  at index 20 set to |Sources/Shaders/model_vertex.glsl|
+Resource "PARTICLE_FRAGMENT_SHADER":  at index 21 set to |Sources/Shaders/particle_fragment.glsl|
+Resource "PARTICLE_VERTEX_SHADER":  at index 22 set to |Sources/Shaders/particle_vertex.glsl|
+Resource "SKY_FRAGMENT_SHADER":  at index 23 set to |Sources/Shaders/sky_fragment.glsl|
+Resource "SKY_VERTEX_SHADER":  at index 24 set to |Sources/Shaders/sky_vertex.glsl|
+Resource "SKYBOX_FRAGMENT_SHADER":  at index 25 set to |Sources/Shaders/skybox_fragment.glsl|
+Resource "SKYBOX_VERTEX_SHADER":  at index 26 set to |Sources/Shaders/skybox_vertex.glsl|
+Resource "TEXT_FRAGMENT_SHADER":  at index 27 set to |Sources/Shaders/text_fragment.glsl|
+Resource "TEXT_VERTEX_SHADER":  at index 28 set to |Sources/Shaders/text_vertex.glsl|
+Resource "UI_FRAGMENT_SHADER":  at index 29 set to |Sources/Shaders/ui_fragment.glsl|
+Resource "UI_VERTEX_SHADER":  at index 30 set to |Sources/Shaders/ui_vertex.glsl|
